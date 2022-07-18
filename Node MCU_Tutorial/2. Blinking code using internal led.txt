@@ -1,0 +1,19 @@
+			ARDUINO IDE
+ 		                 -------- -------------
+
+
+void setup() {
+  // your setup code here, run once:
+  	pinMode(LED_BUILTIN, OUTPUT);               // Defining that inbuilt board led 					    	    is an output device
+} 
+
+void loop() {
+  // your main code here, run repeatedly:
+  	digitalWrite(LED_BUILTIN, HIGH); 	 // command to switch on the led
+  	delay(1000);		   	 // switch on for 1 second
+  	digitalWrite(LED_BUILTIN, LOW);	 // command to switch off the led
+	delay(1000);			 // switch off for 1 second
+}
+
+
+//Conclusion: It looks like blinking in a loop.....

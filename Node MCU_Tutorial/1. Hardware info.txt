@@ -1,0 +1,16 @@
+BOARD: NodeMCU (ESP8266)
+
+			HARDWARE
+     		    ----------------
+
+1. A ESP8266 Wi-Fi chip in middle
+
+2. 9 DIgital pins(D0 - D4) & (D5 - D8) = Gives only high or     low value (Ex: LED,Relay module,LCD module,IR sensor)
+
+3. TX & RX pin used for serial communication (Ex: blutooth Module & GSM Module(This works on serial communication))
+
+4. Power supply pins (3.3 V & Ground pin(GND))
+
+5. Only 1 Analog pin
+
+6. Vin pin (Input power supply (used for connecting a 9 volt    battery)) (Range:     7v to 12v)

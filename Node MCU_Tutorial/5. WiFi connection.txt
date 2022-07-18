@@ -1,0 +1,21 @@
+			ARDUINO IDE
+			------------------
+
+#include<ESP8266WiFi.h>
+void setup() {
+  	Serial.begin(9600);
+  	WiFi.begin("WIFI", "akash1896");
+
+  	while(WiFi.status() != WL_CONNECTED)
+  	{
+    		Serial.print(".");
+    		delay(200);
+  	}
+  	Serial.println();                         // after the println line anything prints from a 				new line in serial moniter
+  	Serial.println("NodeMCU is Connected!");
+  	Serial.print(WiFi.localIP());
+}
+
+void loop() {
+  
+}

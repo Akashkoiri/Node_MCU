@@ -1,0 +1,18 @@
+			ARDUINO
+ 		     -------------
+
+
+#define led D5  // defining a external led using variable with connected pin no.
+void setup() {
+  	pinMode(led, OUTPUT); // Defining that var led is an output device
+} 
+
+void loop() {
+  	digitalWrite(led, HIGH); // command to switch on the led
+  	delay(1000);		 // switch on for 1 second
+  	digitalWrite(led, LOW);	 // command to switch off the led
+	delay(1000);		 // switch off for 1 second
+}
+
+
+//Conclusion: It looks like blinking in a loop.....
